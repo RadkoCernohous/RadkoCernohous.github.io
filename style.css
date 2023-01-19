@@ -1,0 +1,202 @@
+h1 {
+  font-family: 'Alfa Slab One', cursive;
+  color: #00214D;
+}
+
+h2 {
+  font-family: 'Kanit', sans-serif;
+  color: white;
+  font-size: 4rem;
+  ;
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+h5 {
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 3rem;
+}
+
+.historyMain{
+ margin-top: 2rem;
+ margin-bottom: 2rem;
+}
+.mainCarousel{
+  margin-top: 5rem;
+}
+.carCaption {
+  font-family: 'Kanit', sans-serif;
+  font-size: 1.5rem;
+}
+
+.nadpisMobil {
+  display: none;
+  font-size: 1.3rem;
+  font-family: 'Alfa Slab One', cursive;
+  color: #00214D;
+}
+
+.nadpisPc {
+  padding-right: 12rem;
+  font-family: 'Alfa Slab One', cursive;
+  color: #00214D;
+}
+
+.aktivni {
+  color: #00214D;
+}
+
+.zmenaBarvy {
+  font-family: 'Kanit', sans-serif;
+}
+
+.zmenaBarvy,
+.facebook,
+.twitter,
+.instagram,
+.youTube {
+  transition: all 0.3s ease-in-out;
+  font-size: 120%;
+}
+
+.facebook:hover {
+  color: #3b5998
+}
+
+.twitter:hover {
+  color: #00acee;
+}
+
+.instagram:hover {
+  color: #d6642b
+}
+
+.youTube:hover {
+  color: #c4302b;
+}
+
+.zmenaBarvy:hover {
+  color: #cf132b;
+}
+
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+
+}
+
+.hover-underline-animation::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #00214D;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-in-out;
+}
+
+.hover-underline-animation:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.carouselWrapper {
+  margin-top: 5rem;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.footerIcon {
+  background-color: #3b5998;
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
+
+.footerIcon:hover {
+  background-color: #cf132b;
+  color: white;
+}
+
+.text-footer {
+  color: #3b5998;
+  font-family: 'Kanit', sans-serif;
+}
+
+.credit-footer {
+  font-family: 'Kanit', sans-serif;
+  background-color: #3b5998;
+  color: white;
+}
+
+
+.player-name {
+  font-family: 'Kanit', sans-serif;
+  font-size: 1rem;
+  font-weight: 100;
+}
+
+.player-surname {
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 1.3rem;
+  font-weight: 100;
+}
+
+.card-body a {
+  background-color: #00214D;
+  transition: all 0.3s ease-in-out;
+}
+
+.card-body a:hover {
+  background-color: #c4302b;
+}
+
+.obrazekSoupiska {
+  height: 40rem;
+}
+
+.zlato {
+  background-color: gold;
+}
+
+.stribro {
+  background-color: silver;
+}
+
+.bronz {
+  background-color: maroon;
+}
+
+
+@media (max-width: 992px) {
+  .nadpisPc {
+    display: none;
+  }
+
+  .nadpisMobil {
+    display: block;
+  }
+
+  .brand {
+    margin-right: 0%;
+  }
+
+  .carouselWrapper {
+    width: 100%;
+    margin: 0;
+    margin-top: 5rem;
+  }
+
+  .obrazekSoupiska {
+    height: 20rem;
+  }
+  .historyMain{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+   }
+}
