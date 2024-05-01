@@ -1,2 +1,0 @@
-Vytvořili jsme stránku hokejového týmu Washington Capitals. Obsahuje 3 strany - hlavní stranu, soupisku a historii týmu. 
-Během projektu jsme se naučili pouívat GitHub. Mohli jsme tak pracovat oba zároveň, c
